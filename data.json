@@ -1,0 +1,152 @@
+[
+  {
+    "name": "zR1ckXDefender",
+    "region": "NA",
+    "points": 450,
+    "tiers": {
+      "vanilla": "HT1",
+      "uhc": "LT1",
+      "pot": "HT1",
+      "nethop": "HT1",
+      "smp": "HT1",
+      "sword": "HT1",
+      "axe": "LT1",
+      "mace": "HT1"
+    }
+  },
+  {
+    "name": "iMythixz",
+    "region": "NA",
+    "points": 330,
+    "tiers": {
+      "vanilla": "HT1",
+      "uhc": "LT2",
+      "pot": "HT1",
+      "nethop": "HT1",
+      "smp": "HT1",
+      "sword": "HT3",
+      "axe": "LT2",
+      "mace": "LT2"
+    }
+  },
+  {
+    "name": "LarryCap0lla",
+    "region": "EU",
+    "points": 326,
+    "tiers": {
+      "vanilla": "LT3",
+      "uhc": "HT1",
+      "pot": "LT1",
+      "nethop": "LT2",
+      "smp": "HT1",
+      "sword": "LT1",
+      "axe": "LT1",
+      "mace": "LT1"
+    }
+  },
+  {
+    "name": "Swight",
+    "region": "NA",
+    "points": 290,
+    "tiers": {
+      "vanilla": "LT3",
+      "uhc": "HT1",
+      "pot": "LT2",
+      "nethop": "HT2",
+      "smp": "HT1",
+      "sword": "LT2",
+      "axe": "HT1",
+      "mace": "LT2"
+    }
+  },
+  {
+    "name": "janekv",
+    "region": "EU",
+    "points": 260,
+    "tiers": {
+      "vanilla": "HT4",
+      "uhc": "LT2",
+      "pot": "HT1",
+      "nethop": "HT1",
+      "smp": "HT1",
+      "sword": "HT2",
+      "axe": "LT2",
+      "mace": "LT3"
+    }
+  },
+  {
+    "name": "BlvckWlf",
+    "region": "EU",
+    "points": 226,
+    "tiers": {
+      "vanilla": "LT3",
+      "uhc": "HT1",
+      "pot": "LT2",
+      "nethop": "LT3",
+      "smp": "HT1",
+      "sword": "HT3",
+      "axe": "HT2",
+      "mace": "HT2"
+    }
+  },
+  {
+    "name": "Kylaz",
+    "region": "NA",
+    "points": 226,
+    "tiers": {
+      "vanilla": "LT3",
+      "uhc": "HT1",
+      "pot": "LT2",
+      "nethop": "HT1",
+      "smp": "HT1",
+      "sword": "HT1",
+      "axe": "LT2-",
+      "mace": "HT3"
+    }
+  },
+  {
+    "name": "ninorc15",
+    "region": "EU",
+    "points": 196,
+    "tiers": {
+      "vanilla": "LT3",
+      "uhc": "HT3",
+      "pot": "LT2",
+      "nethop": "LT2",
+      "smp": "HT3",
+      "sword": "LT2",
+      "axe": "HT3",
+      "mace": "LT2"
+    }
+  },
+  {
+    "name": "Lurrn",
+    "region": "EU",
+    "points": 186,
+    "tiers": {
+      "vanilla": "HT2",
+      "uhc": "LT3",
+      "pot": "HT1",
+      "nethop": "HT1",
+      "smp": "",
+      "sword": "LT2",
+      "axe": "LT4",
+      "mace": ""
+    }
+  },
+  {
+    "name": "Arsakha",
+    "region": "ME",
+    "points": 177,
+    "tiers": {
+      "vanilla": "LT3",
+      "uhc": "HT3",
+      "pot": "HT3",
+      "nethop": "LT3",
+      "smp": "HT1",
+      "sword": "LT3",
+      "axe": "HT3",
+      "mace": "LT3"
+    }
+  }
+]

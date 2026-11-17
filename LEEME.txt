@@ -1,0 +1,5 @@
+Este proyecto utiliza el HTML base proporcionado y enlaza el logo e íconos oficiales de mctiers.gg. No incluye un logo inventado.
+Publicar todos los archivos de esta carpeta en GitHub Pages.
+Para que los cambios sean visibles a todos, usar Exportar JSON y subir el data.json exportado al repositorio.
+Es una copia no oficial. No contiene el código fuente privado ni el backend de MCTiers.
+El HTML es la estructura original adaptada para que funcione sin la hidratación de Next.js; no es una copia funcional del backend.
