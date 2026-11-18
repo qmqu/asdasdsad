@@ -1,4 +1,64 @@
-/* Complemento del HTML original de MCTiers; conserva el CSS y los íconos oficiales enlazados */
-:root{color-scheme:dark}body{background:#0d0e13;color:#e5e7eb;font-family:Arial,sans-serif} .mc-unofficial{font-size:12px;color:#94a3b8;text-align:center;padding:8px;margin:3px 0 18px;background:#171923;border:1px solid #313443;border-radius:8px}
-.mc-rankings{color:#e2e8f0;padding:8px 0 16px}.mc-tools{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:12px 0;border-bottom:1px solid #343747}.mc-table-label{display:flex;align-items:center;gap:13px;color:#989fab;font-size:13px;font-weight:700}.mc-actions{display:flex;gap:8px;flex-wrap:wrap}.mc-actions input,.mc-actions button,#mc-dialog input,#mc-dialog select,#mc-dialog button{background:#242733;border:1px solid #3b4050;border-radius:7px;color:#e6e9f3;padding:9px 12px}.mc-actions button,#mc-dialog button{cursor:pointer}.mc-actions button:hover,#mc-dialog button:hover{background:#353b4b}.mc-rows{display:grid;gap:7px;padding-top:12px}.mc-player{display:grid;grid-template-columns:45px 46px minmax(140px,1fr) 62px minmax(260px,1.6fr);gap:11px;align-items:center;padding:13px 14px;background:#1b1d26;border:1px solid #333642;border-radius:9px;min-height:68px}.mc-player:hover{background:#242735}.mc-rank{font-size:20px;font-weight:800;text-align:center;color:#d1d5db}.mc-player:first-child .mc-rank{color:#f9d767}.mc-avatar{height:45px;width:45px;object-fit:contain}.mc-name{font-size:16px;font-weight:750;overflow-wrap:anywhere}.mc-points{font-size:12px;color:#abb3c2;margin-top:4px}.mc-region{font-size:14px;color:#bbc2cf}.mc-tier-grid{display:flex;flex-wrap:wrap;gap:7px;justify-content:flex-end}.mc-tier{display:flex;align-items:center;gap:4px;background:#303341;padding:5px 7px;border-radius:6px;border:1px solid #414555;font-size:12px;font-weight:800}.mc-tier img{width:19px;height:19px}.mc-note{color:#929aac;font-size:12px;text-align:center;margin-top:18px}#mc-dialog{background:#161820;color:#eef1f8;border:1px solid #4a4e61;border-radius:12px;width:min(92vw,680px);max-height:86vh;padding:0}#mc-dialog::backdrop{background:#000a}.mc-editor{padding:22px;display:grid;gap:12px;overflow:auto}.mc-editor-head{display:flex;justify-content:space-between;align-items:center}.mc-editor-head h2{font-size:21px;font-weight:700}.mc-editor label{display:grid;gap:4px;font-size:13px}.mc-edit-tiers{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}.mc-form-actions{display:flex;flex-wrap:wrap;gap:8px}.mc-editor h3{font-weight:700}.mc-managed{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #353847;padding:8px 0;gap:8px}.mc-managed div{display:flex;gap:6px}.mc-managed button{font-size:12px}.mc-notice{font-size:12px;color:#aeb6c5}
-@media(max-width:850px){.mc-player{grid-template-columns:35px 40px minmax(120px,1fr) 42px;gap:7px}.mc-tier-grid{grid-column:2/-1;justify-content:flex-start}.mc-tools{flex-direction:column;align-items:stretch}.mc-edit-tiers{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:500px){.mc-player{padding:9px 8px}.mc-name{font-size:14px}.mc-tier{padding:4px}.mc-avatar{width:36px;height:36px}}
+/* Tipografia coherente con MCTiers: Geist. */
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&display=swap');
+/* Ajustes discretos sobre los estilos originales de MCTiers. */
+:root { color-scheme: dark; }
+body { background: #0d0e13; color: #e5e7eb; }
+.mc-unofficial { padding: 8px 12px; margin: 0 0 14px; border: 1px solid #2a2d36; border-radius: 7px; background: #161820; color: #9399a8; font-size: 12px; text-align: center; }
+.mc-rankings { padding: 0 0 16px; color: #e2e8f0; }
+.mc-tools { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 10px 0 12px; border-bottom: 1px solid #343744; }
+.mc-table-label { display: flex; align-items: center; gap: 13px; font-weight: 700; font-size: 13px; color: #a4aab6; }
+.mc-actions { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.mc-actions input, .mc-actions button, #mc-dialog input, #mc-dialog select, #mc-dialog button { background: #242731; border: 1px solid #3a3e4c; border-radius: 6px; color: #e8ebf3; font: inherit; font-size: 13px; padding: 8px 11px; outline-offset: 2px; }
+.mc-actions input:focus-visible, .mc-actions button:focus-visible, #mc-dialog :is(input, select, button):focus-visible { outline: 2px solid #7e8ca8; }
+.mc-actions button, #mc-dialog button { cursor: pointer; }
+.mc-actions button:hover, #mc-dialog button:hover { background: #30343f; }
+.mc-rows { display: grid; gap: 5px; padding-top: 10px; }
+.mc-player { display: grid; grid-template-columns: 36px 42px minmax(145px,1fr) 55px minmax(255px,1.55fr); align-items: center; gap: 10px; padding: 10px 13px; min-height: 62px; background: #1b1d25; border: 1px solid #30333e; border-radius: 7px; transition: background-color .14s ease, border-color .14s ease; }
+.mc-player:hover { background: #20232d; border-color: #414656; }
+.mc-rank { text-align: center; font-size: 18px; font-weight: 800; color: #c0c7d3; font-variant-numeric: tabular-nums; }
+.mc-player:first-child .mc-rank { color: #ebca68; }
+.mc-player:nth-child(2) .mc-rank { color: #c1c8d5; }
+.mc-player:nth-child(3) .mc-rank { color: #c69b78; }
+.mc-avatar { height: 40px; width: 40px; object-fit: contain; }
+.mc-name { font-size: 15px; line-height: 1.3; font-weight: 750; overflow-wrap: anywhere; }
+.mc-points { margin-top: 3px; font-size: 12px; color: #9ba3b4; }
+.mc-region { font-size: 13px; color: #aab2c2; }
+.mc-tier-grid { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 5px; }
+.mc-tier { display: inline-flex; align-items: center; gap: 4px; padding: 4px 6px; background: #2b2e39; border: 1px solid #3b3f4d; border-radius: 5px; font-size: 11px; line-height: 1.3; font-weight: 750; white-space: nowrap; }
+.mc-tier img { width: 17px; height: 17px; object-fit: contain; }
+.mc-note { color: #959dad; font-size: 12px; text-align: center; margin-top: 15px; }
+#mc-dialog { width: min(92vw,680px); max-height: 86vh; padding: 0; background: #171923; border: 1px solid #3c4150; border-radius: 10px; color: #eef1f8; box-shadow: 0 16px 55px #0007; }
+#mc-dialog::backdrop { background: #000b; }
+.mc-editor { padding: 20px; display: grid; gap: 12px; overflow: auto; }
+.mc-editor-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.mc-editor-head h2 { font-size: 20px; font-weight: 700; }
+.mc-editor label { display: grid; gap: 5px; font-size: 13px; }
+.mc-edit-tiers { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 8px; }
+.mc-form-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.mc-editor h3 { font-weight: 700; }
+.mc-managed { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 8px 0; border-bottom: 1px solid #353847; }
+.mc-managed div { display: flex; gap: 6px; }
+.mc-managed button { font-size: 12px; }
+.mc-notice { font-size: 12px; color: #aeb6c5; }
+/* Quita animaciones decorativas del HTML exportado, sin afectar al editor. */
+.mc-rankings *, .mc-unofficial, #mc-dialog * { animation: none !important; transform: none !important; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; } }
+@media (max-width: 850px) { .mc-player { grid-template-columns: 32px 40px minmax(115px,1fr) 42px; gap: 7px; } .mc-tier-grid { grid-column: 2 / -1; justify-content: flex-start; } .mc-tools { align-items: stretch; flex-direction: column; } .mc-edit-tiers { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media (max-width: 500px) { .mc-player { padding: 9px 8px; } .mc-name { font-size: 14px; } .mc-tier { padding: 4px; } .mc-avatar { width: 36px; height: 36px; } }
+
+
+/* Refina la tipografia sin alterar la estructura ni los datos. */
+html, body, button, input, select, textarea {
+  font-family: 'Geist', 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+body { letter-spacing: -0.012em; line-height: 1.48; }
+.mc-name { font-size: 14px; font-weight: 650; letter-spacing: -0.025em; line-height: 1.3; }
+.mc-rank { font-size: 17px; font-weight: 700; letter-spacing: -0.025em; }
+.mc-table-label { font-size: 12px; font-weight: 650; letter-spacing: 0; }
+.mc-tier { font-size: 11px; font-weight: 650; letter-spacing: 0; }
+.mc-points, .mc-region { font-weight: 450; letter-spacing: 0; }
+.mc-editor-head h2 { font-weight: 700; letter-spacing: -0.03em; }
+.mc-actions button, #mc-dialog button { font-weight: 600; }
+@media (max-width: 500px) { .mc-name {font-size: 14px;} }
